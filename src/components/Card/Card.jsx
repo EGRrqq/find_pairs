@@ -1,5 +1,5 @@
 import './Card.css'
-import roller_skate from '../assets/roller-skates-svgrepo-com.svg'
+import roller_skate from '../../assets/roller-skates-svgrepo-com.svg'
 
 const Card = ({ item }) => {
     return (

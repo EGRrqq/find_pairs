@@ -1,4 +1,6 @@
-import Card from "./components/Card"
+import Card from "./components/Card/Card"
+import Chat from "./components/Chat/Chat"
+import Rules from "./components/Rules/Rules"
 import './App.css'
 
 const App = () => {
@@ -9,11 +11,15 @@ const App = () => {
 	]
   
 	return (
-	  <div className="App"> 
-		<div className="gameboard">
-			{items.map((item, id) => <Card key={id} item={item} />)}
+		<div className="App"> 
+			<div className="left-side">
+				<Rules />
+				<Chat />
+			</div>
+			<div className="gameboard">
+				{items.map((item, id) => <Card key={id} item={item} />)}
+			</div>
 		</div>
-	  </div>
 	)
   }
   
