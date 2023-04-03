@@ -25,7 +25,7 @@ const Chat = () => {
         <>
             <ul>
                 {showValue.map(answer => 
-                    <li key={answer.id}>{answer.value}</li>
+                    <li key={answer.id} style={{ color: 'aliceblue' }}>{answer.value}</li>
                 )}
             </ul>
 

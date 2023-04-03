@@ -1,7 +1,7 @@
 const Rules = () => {
     return (
         <>
-            <p style={{   display: 'grid', placeItems: 'center'}}>Rules</p>
+            <p style={{   display: 'grid', placeItems: 'center', color: 'aliceblue' }}>Rules</p>
         </>
     )
 }

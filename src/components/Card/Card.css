@@ -1,4 +1,10 @@
 .card-container {
     display: grid;
+    width: 3rem;
+    height: 3rem;
     place-items: center;
+    color: rgb(20, 26, 77);
+    background-color: rgb(190, 180, 223);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.3) inset,
+                0 4px 5px 0 rgba(0, 0, 0, 0.57);
 }

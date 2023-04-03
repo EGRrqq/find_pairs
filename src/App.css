@@ -1,6 +1,6 @@
 .App {
     display: grid;
-
+    background-color: rgb(45, 41, 61);
     grid-template-columns: repeat(2, 1fr);
     place-items: center;
 }
@@ -13,5 +13,6 @@
 
 .gameboard {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    grid-template-columns: repeat(8, 1fr);
 }

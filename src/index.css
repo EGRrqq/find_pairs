@@ -9,6 +9,7 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: radial-gradient(50% 99%, #25274a 10%, #333666 99%);
 }
 
 img {
